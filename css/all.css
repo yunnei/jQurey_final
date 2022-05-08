@@ -1,0 +1,332 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 微軟正黑體, Arial, Helvetica, sans-serif;
+}
+
+.mb-xl {
+  margin-bottom: 60px;
+}
+
+.text-facebook {
+  color: #576da9;
+}
+
+.text-twitter {
+  color: #00abec;
+}
+
+.text-highlight {
+  color: #00cc98;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.social-link {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+  background: #f6f6f6;
+}
+
+.social-link li {
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  margin: 8px 0;
+}
+
+.social-link li:first-child {
+  border-right: 1px solid #ccc;
+}
+
+.social-link a {
+  margin-left: 4px;
+  border-bottom: 1px solid transparent;
+}
+
+.social-link a:hover {
+  border-bottom: 1px solid #000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  background-image: url(../images/logo.png);
+  width: 192px;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.navbar h1 a {
+  height: 100%;
+}
+
+.navbar > ul {
+  display: flex;
+}
+
+.menu a {
+  color: #00cc98;
+  padding: 16px 10px;
+  margin: 0 10px;
+  border-bottom: 3px solid transparent;
+}
+
+.menu a:hover {
+  border-bottom: 3px solid #00cc98;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-list {
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 51px;
+  text-align: center;
+  z-index: 4;
+  background: #fff;
+}
+
+.swiper {
+  height: 346px;
+}
+
+.swiper-slide {
+  height: 346px;
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide h2 {
+  width: 100%;
+  color: #fff;
+  font-size: 36px;
+  line-height: 1.5;
+  padding: 36px 20px;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.swiper-slide:first-child {
+  background-image: url(../images/banner.png);
+}
+
+.swiper-slide:nth-child(2) {
+  background-image: url(../images/banner02.png);
+}
+
+.swiper-slide:last-child {
+  background-image: url(../images/banner03.png);
+}
+
+.card-list {
+  display: flex;
+  justify-content: space-around;
+  line-height: 1.5;
+}
+
+.card-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 32%;
+  padding: 20px;
+  box-shadow: 0 2px 2px 2px #f5f4f4;
+  border-radius: 4px;
+}
+
+.card-list img {
+  height: 140px;
+  width: 232px;
+  object-fit: none;
+}
+
+.card-list h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-list p {
+  width: 100%;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.difference h3 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.difference table {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.difference thead {
+  background: #f7f7f7;
+  font-weight: bold;
+}
+
+.difference thead tr {
+  border-top: 1px solid #ddd;
+}
+
+.difference tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.difference tr:hover {
+  background: #fcfcfc;
+}
+
+.difference th, .difference td {
+  padding: 10px 20px;
+}
+
+.contact {
+  background: linear-gradient(#00654a, #009972);
+  padding: 32px 0 28px;
+}
+
+.contact h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.contact form {
+  display: flex;
+  justify-content: center;
+}
+
+.contact textarea {
+  width: 46%;
+  margin-right: 40px;
+  border-radius: 4px;
+  padding: 10px 8px;
+  resize: none;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  line-height: 1.5;
+  width: 46%;
+}
+
+.contact-info input {
+  padding: 10px 8px;
+  margin-bottom: 16px;
+  border: none;
+  border-radius: 4px;
+}
+
+.contact-info button {
+  width: 70px;
+  padding: 8px 18px;
+  border-radius: 4px;
+  border: none;
+  background: #00cc98;
+  color: #fff;
+  align-self: end;
+}
+
+.contact-info button:hover {
+  cursor: pointer;
+  background: #00654a;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 20px;
+  line-height: 1.5;
+}
+
+.footer a {
+  display: inline;
+  color: #e12d80;
+}
+
+.top {
+  display: none;
+  font-size: 36px;
+  position: fixed;
+  bottom: 4%;
+  right: 4%;
+}
+
+.lb-data.lb-details {
+  width: 100%;
+}
+/*# sourceMappingURL=all.css.map */
